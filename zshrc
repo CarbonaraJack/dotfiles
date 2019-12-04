@@ -59,10 +59,9 @@ ZSH_THEME="robbyrussell"
 # stamp shown in the history command output.
 # You can set one of the optional three formats:
 # "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-"yyyy-mm-dd"
 # or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="%Y/%m/%d"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -109,3 +108,6 @@ alias bup="brew update && brew upgrade && brew cask upgrade"
 #UPdate ALL
 ##Updates everything on the system
 alias upall="bup && upgrade_oh_my_zsh"
+
+#GIT for RC files
+alias gitrc='git -C $HOME/.dotfiles/'
