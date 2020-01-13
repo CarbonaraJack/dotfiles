@@ -111,3 +111,7 @@ alias upall="bup && upgrade_oh_my_zsh"
 
 #GIT for RC files
 alias gitrc='git -C $HOME/.dotfiles/'
+
+#Stanford CoreNLP
+alias corenlp='docker run -p 9000:9000 corenlp'
+
