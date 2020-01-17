@@ -1,0 +1,17 @@
+packages: [
+  "atom-clock"
+  "atom-material-syntax"
+  "atom-material-ui"
+  "atom-monokai"
+  "firewatch-syntax"
+  "hey-pane"
+  "Hydrogen"
+  "isotope-ui"
+  "language-prolog"
+  "monokai"
+  "monokai-seti"
+  "monokai-slate"
+  "package-sync"
+  "seti-syntax"
+  "seti-ui"
+]

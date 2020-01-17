@@ -23,4 +23,5 @@ In order to handle sync use the alias *gitrc*.
 * Profiles > Other actions > Import JSON profile
 
 ## Atom backup instructions:
-Follow the instructions from [this](https://pawelgrzybek.com/sync-atom-between-multiple-devices/) blog post. 
+Follow the instructions from [this](https://pawelgrzybek.com/sync-atom-between-multiple-devices/) blog post.
+To sync packages use [this](https://atom.io/packages/package-sync) extension.

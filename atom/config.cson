@@ -6,6 +6,10 @@
   core:
     audioBeep: false
     colorProfile: "srgb"
+    disabledPackages: [
+      "metrics"
+      "exception-reporting"
+    ]
     packagesWithKeymapsDisabled: [
       "hey-pane"
     ]
@@ -23,8 +27,6 @@
     showInvisibles: true
     softWrap: true
     softWrapAtPreferredLineLength: true
-  "exception-reporting":
-    userId: "7e05be59-6f0c-49d3-a4f4-322584732a02"
   "hey-pane":
     followModeByDefault: true
   "isotope-ui":
@@ -32,6 +34,9 @@
     fontFamily: "Roboto"
     minimalMode: true
   "one-dark-ui": {}
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "platformio-ide-terminal":
     customTexts: {}
     style:
