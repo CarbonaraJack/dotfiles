@@ -20,7 +20,7 @@ In order to handle sync use the alias *gitrc*.
 ### iTerm2 settings backup instructions:
 * Open iTerm2's preferences
 * General > Preferences
-* Tick "Load preferences from a custom folder"
+* Tick \"Load preferences from a custom folder\"
 * Specify ~/iTerm2/
 * Profiles > Other actions > Import JSON profile
 

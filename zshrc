@@ -115,3 +115,10 @@ alias gitrc='git -C $HOME/.dotfiles/'
 #Stanford CoreNLP
 alias corenlp='docker run -p 9000:9000 corenlp'
 
+#Read Markdown
+rmd () {
+  pandoc $1 | lynx -stdin
+}
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
