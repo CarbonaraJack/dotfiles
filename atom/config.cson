@@ -1,0 +1,57 @@
+"*":
+  "atom-clock":
+    dateFormat: "D MMM YYYY, H:mm:ss"
+    refreshInterval: 1
+    showOnlyInFullscreen: true
+  core:
+    audioBeep: false
+    colorProfile: "srgb"
+    packagesWithKeymapsDisabled: [
+      "hey-pane"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "seti-ui"
+      "monokai-seti"
+    ]
+    titleBar: "custom"
+  editor:
+    fontFamily: "ibm plex mono, inconsolata"
+    fontSize: 15
+    invisibles: {}
+    scrollPastEnd: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "7e05be59-6f0c-49d3-a4f4-322584732a02"
+  "hey-pane":
+    followModeByDefault: true
+  "isotope-ui":
+    backgroundGradient: true
+    fontFamily: "Roboto"
+    minimalMode: true
+  "one-dark-ui": {}
+  "platformio-ide-terminal":
+    customTexts: {}
+    style:
+      fontFamily: "Hack Nerd Font"
+  "seti-syntax":
+    themeColor: "Purple"
+  "seti-ui":
+    compactView: true
+    disableAnimations: true
+    fileIcons: false
+    themeColor: "Orange"
+  "sync-settings":
+    _lastBackupHash: "b79e3be9b1c09e1228030f77b378ab317341b6bd"
+    gistId: "8f746187fb4d5e25556807dd2aae5529"
+    personalAccessToken: "d6209e79208ad0e0de1630ed0eb8c0930e7db95c"
+  "terminal-tab":
+    defaultLocation: "right"
+    fontFamily: "hack nerd font"
+  "vk-terminal":
+    style:
+      fontFamily: "inconsolata"
+  welcome:
+    showOnStartup: false
