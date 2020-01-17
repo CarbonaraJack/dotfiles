@@ -9,11 +9,12 @@ My own dotfiles managed with RCM.
 In order to handle sync use the alias *gitrc*.
 
 ## List of versioned Apps
+* brew
 * zsh
 * vim
 * iTerm2
 * Atom
-* *VSCode*
+* TODO: *VSCode*
 
 ## iTerm2 settings backup instructions:
 * Open iTerm2's preferences
