@@ -12,6 +12,7 @@
     ]
     packagesWithKeymapsDisabled: [
       "hey-pane"
+      "Hydrogen"
     ]
     telemetryConsent: "no"
     themes: [
@@ -21,7 +22,7 @@
     titleBar: "custom"
   editor:
     fontFamily: "ibm plex mono, inconsolata"
-    fontSize: 15
+    fontSize: 17
     invisibles: {}
     scrollPastEnd: true
     showInvisibles: true
@@ -55,6 +56,9 @@
   "terminal-tab":
     defaultLocation: "right"
     fontFamily: "hack nerd font"
+  "tree-view":
+    autoReveal: true
+    hideIgnoredNames: true
   "vk-terminal":
     style:
       fontFamily: "inconsolata"

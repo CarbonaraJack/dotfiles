@@ -36,3 +36,6 @@
   'cmd-alt-ctrl-left': 'window:focus-pane-on-left'
   'cmd-alt-ctrl-up': 'window:focus-pane-on-up'
   'cmd-alt-ctrl-down': 'window:focus-pane-on-down'
+
+'.platform-darwin atom-text-editor:not([mini])':
+  'shift-enter': 'hydrogen:run-cell'
