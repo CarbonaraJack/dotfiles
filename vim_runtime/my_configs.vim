@@ -1,1 +1,1 @@
-:set number relativenumber
+/Users/gecchele.m.aa/.dotfiles/vim_runtime/my_configs.vim
