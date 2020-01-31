@@ -1,1 +1,0 @@
-/Users/gecchele.m.aa/.dotfiles/vim_runtime/vimrcs/basic.vim
