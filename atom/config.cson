@@ -41,7 +41,7 @@
   "platformio-ide-terminal":
     customTexts: {}
     style:
-      fontFamily: "Hack Nerd Font"
+      fontFamily: "MesloLGS NF"
   "seti-syntax":
     themeColor: "Purple"
   "seti-ui":
