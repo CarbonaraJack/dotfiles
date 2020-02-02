@@ -1,11 +1,16 @@
-set runtimepath+=~/.vim_runtime
+" Disabling vi compatibility
+set nocompatible
 
-source ~/.vim_runtime/vimrcs/basic.vim
-source ~/.vim_runtime/vimrcs/filetypes.vim
-source ~/.vim_runtime/vimrcs/plugins_config.vim
-source ~/.vim_runtime/vimrcs/extended.vim
+" Enabling Syntax Highlighting
+filetype plugin on
+syntax on
 
-try
-source ~/.vim_runtime/my_configs.vim
-catch
-endtry
+" Fix backspace not deleting lines in insert mode
+set backspace=indent,eol,start
+
+" Enabling Mouse support
+:set mouse=a
+
+" Adding Hybrid line numbers
+:set number relativenumber
+
