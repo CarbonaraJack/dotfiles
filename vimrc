@@ -21,3 +21,19 @@ set display=truncate
 " Enabling Syntax Highlighting
 filetype plugin on
 syntax on
+
+" PLUGINS
+call plug#begin()
+" Powerline
+Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+" Nerdtree
+Plug 'scrooloose/nerdtree'
+" Conda support for python 
+" Plug 'cjrh/vim-conda'
+
+call plug#end()
+
+" POWERLINE
+set laststatus=2 " Always display the statusline in all windows
+set showtabline=2 " Always display the tabline, even if there is only one tab
+set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline)

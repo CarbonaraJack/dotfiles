@@ -5,3 +5,5 @@
 /atom/packages/
 /atom/storage/
 
+# VIM Plugs
+/vim/plugged/
