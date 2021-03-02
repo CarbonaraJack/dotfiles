@@ -4,7 +4,6 @@ packages: [
   "atom-material-ui"
   "atom-monokai"
   "firewatch-syntax"
-  "hey-pane"
   "Hydrogen"
   "isotope-ui"
   "language-prolog"

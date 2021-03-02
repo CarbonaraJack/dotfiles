@@ -83,11 +83,7 @@ source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -104,7 +100,7 @@ export LANG=en_US.UTF-8
 #User Aliases
 #Brew UPdate
 ##Brew & cask update + upgrade
-alias bup="brew update && brew upgrade && brew cask upgrade"
+alias bup="brew update && brew upgrade && brew upgrade --cask" 
 #UPdate ALL
 ##Updates everything on the system
 alias upall="bup && upgrade_oh_my_zsh"
@@ -138,3 +134,18 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+
+source /Users/gecchele.m.aa/Library/Preferences/org.dystroy.broot/launcher/bash/br
+
+# Created by `userpath` on 2020-12-15 11:16:32
+export PATH="$PATH:/Users/gecchele.m.aa/.local/bin"
+
+# Docker development environment
+export DOCKER_ENV=dev
+export DOCKER_PORT=5000
+
+###-tns-completion-start-###
+if [ -f /Users/gecchele.m.aa/.tnsrc ]; then 
+    source /Users/gecchele.m.aa/.tnsrc 
+fi
+###-tns-completion-end-###
